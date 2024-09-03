@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchCountries } from '../redux/countriesSlice';
 import { RootState, AppDispatch } from '../redux/store';
 import CountryCard from '../components/CountryCard';
-import { Grid, CircularProgress, Typography, Icon } from '@mui/material';
+import { Grid, CircularProgress, Typography } from '@mui/material';
 import Navbar from '../components/NavBar';
 import { useNavigate } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
